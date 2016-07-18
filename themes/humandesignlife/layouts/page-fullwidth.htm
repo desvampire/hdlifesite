@@ -1,0 +1,40 @@
+description = "Шаблон страницы во всю ширину экрана"
+
+[breadcrumbs]
+main-ol-class = "breadcrumb"
+active-class = "active"
+disabled-class = "disabled"
+==
+{% partial "head" %}
+        {% partial "desktop-header.htm" %}
+        {% partial "mobile-header.htm" %}
+        <div class="b_primary_content">
+            <header class="page-header__grey-bg">
+                <div class="container">
+                    <div class="page-header__grey-bg--inner">
+                        <h1 class="page_title typl8-beta" itemprop="name">{% if category %} {{ category.name }} {% else %} {{ this.page.title }} {% endif %}</h1>
+                         {% if post %}
+                            {% partial "breadcrumbs_post" %}
+                         {% elseif category %}
+                            {% partial "breadcrumbs_cat" %}
+                         {% else %}
+                            {% partial "breadcrumbs" %}
+                         {% endif %}
+                    </div>
+                </div>
+            </header>
+            
+            <main class="b_page-content" role="main" itemscope itemprop="mainContentOfPage">
+                <section class="entry-content">
+                   {% page %}
+               </section>
+            </main>
+        </div>
+
+        {% partial "footer.htm" %}
+        </div>
+        {% partial "mobile-site-menu.htm" %}
+    
+{% partial "js-scripts.htm" %} 
+</body>
+</html>

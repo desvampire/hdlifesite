@@ -1,0 +1,27 @@
+description = "Шаблон поста"
+==
+{% partial "head" %}
+    <div id="sb-site">
+        {% partial "desktop-header.htm" %}
+        {% partial "mobile-header.htm" %}
+        <div class="b_primary_content">
+            <div class="container">
+                <div class="grid">
+                    <div class="grid__col-12 grid__col-md-9">
+                        <main class="post" role="main" itemscope itemprop="mainContentOfPage">
+                            {% page %}
+                        </main>
+                    </div>
+                    <div class="grid__col-12 grid__col-md-3">
+                        {% partial "post-single-sidebar.htm" %} 
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% partial "footer.htm" %}
+        </div>
+        {% partial "mobile-site-menu.htm" %}
+    
+{% partial "js-scripts.htm" %}
+</body>
+</html>

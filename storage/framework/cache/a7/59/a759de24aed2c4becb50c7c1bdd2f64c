@@ -1,0 +1,11 @@
+1468839658a:1:{s:20:"breadcrumbs_post.htm";a:7:{s:8:"fileName";s:20:"breadcrumbs_post.htm";s:7:"content";s:187:"[PostBreadCrumbs]
+categoryPage = "blog/category"
+postSlug = "{{ :slug }}"
+
+[viewBag]
+==
+<div class="breadcrumbs-post">
+                          {% component 'PostBreadCrumbs' %}
+</div>";s:5:"mtime";i:1468588614;s:6:"markup";s:99:"<div class="breadcrumbs-post">
+                          {% component 'PostBreadCrumbs' %}
+</div>";s:4:"code";N;s:15:"PostBreadCrumbs";a:2:{s:12:"categoryPage";s:13:"blog/category";s:8:"postSlug";s:11:"{{ :slug }}";}s:7:"viewBag";a:0:{}}}

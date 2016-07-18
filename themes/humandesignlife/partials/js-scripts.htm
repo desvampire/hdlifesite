@@ -1,0 +1,15 @@
+description = "js-scripts for frontend"
+
+[viewBag]
+==
+<script src="//yastatic.net/jquery/2.2.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
+        <script src="{{ [
+            'assets/js/slidebars.min.js',
+            'assets/js/jquery.flexslider-min.js',
+            'assets/js/es5-shims.min.js',
+            'assets/js/share.js',
+            'assets/js/main.js'
+        ]|theme }}"></script>
+        {% framework extras %}
+        {% scripts %}

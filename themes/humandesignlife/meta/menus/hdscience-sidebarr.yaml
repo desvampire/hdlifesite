@@ -1,0 +1,65 @@
+name: hdscience-sidebar
+items:
+    -
+        title: 'Что такое Система Дизайна Человека?'
+        nesting: '0'
+        type: static-page
+        code: ''
+        reference: knowledge-base-chto-takoe-sistema-dizajna-cheloveka
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Синтез наук в Системе Дизайна Человека'
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: knowledge-base-sintez-nauk-v-sisteme-dizajna-cheloveka
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Что такое Нейтрино?'
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: knowledge-base-chto-takoe-nejtrino-kakoe-mesto-ono-imeet-v-sisteme-dizajna-cheloveka
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Что движет нами?'
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: knowledge-base-chto-dvizhet-nami
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Как это работает?'
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: knowledge-base-kak-eto-rabotaet
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'

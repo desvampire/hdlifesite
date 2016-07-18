@@ -1,0 +1,38 @@
+title = "blog category"
+url = "/blog/:slug"
+layout = "page-fullwidth"
+is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+child_of = "mey_no_parent"
+hide_crumb = 0
+remove_crumb_trail = 0
+crumb_disabled = 0
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+categoryFilter = "{{ :slug }}"
+postsPerPage = 10
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "blog-category"
+postPage = "post"
+
+[blogTags]
+results = 5
+direction = "desc"
+==
+<div class="row">
+        <div class="col-10">
+                               
+{% component 'blogPosts' %}
+        </div>
+                            
+         <div class="col-2">
+
+             <p class="get_social__news_bar">Теги:</p>
+             {% component 'blogTags' %}
+             
+         </div>
+
+</div>

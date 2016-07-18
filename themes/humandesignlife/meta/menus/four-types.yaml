@@ -1,0 +1,50 @@
+name: four-types
+items:
+    -
+        title: Манифестор
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: knowledge-base-generator
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Генератор
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: knowledge-base-generator-2
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Проектор
+        nesting: '0'
+        type: static-page
+        code: ''
+        reference: knowledge-base-proektor
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Рефлектор
+        nesting: '0'
+        type: static-page
+        code: ''
+        reference: knowledge-base-reflektor
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'

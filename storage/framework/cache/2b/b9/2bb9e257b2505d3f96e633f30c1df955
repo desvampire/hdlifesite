@@ -1,0 +1,14 @@
+1468847725a:1:{s:12:"testblog.htm";a:16:{s:8:"fileName";s:12:"testblog.htm";s:7:"content";s:266:"title = "testblog"
+url = "/testblog"
+layout = "page-fullwidth"
+is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+child_of = "mey_no_parent"
+hide_crumb = 0
+remove_crumb_trail = 0
+crumb_disabled = 0
+
+[siteSearchInclude]
+==
+{% component 'siteSearchInclude' %}";s:5:"mtime";i:1468588614;s:6:"markup";s:35:"{% component 'siteSearchInclude' %}";s:4:"code";N;s:5:"title";s:8:"testblog";s:3:"url";s:9:"/testblog";s:6:"layout";s:14:"page-fullwidth";s:9:"is_hidden";s:1:"0";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";s:8:"child_of";s:13:"mey_no_parent";s:10:"hide_crumb";s:1:"0";s:18:"remove_crumb_trail";s:1:"0";s:14:"crumb_disabled";s:1:"0";s:17:"siteSearchInclude";a:0:{}}}

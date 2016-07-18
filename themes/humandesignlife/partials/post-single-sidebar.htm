@@ -1,0 +1,27 @@
+description = "Сайдбар к посту из блога"
+
+[viewBag]
+snippetCode = "post-single-sidebar"
+
+[blogTags]
+results = 5
+orderBy = 0
+direction = "desc"
+==
+<aside class="blog-sidebar" role="complementary">
+<div class="blog-sidebar--widget">
+    <h4 class="widget-title typl8-epsilon">Категории блога:</h4>
+    <ul>
+        <li><a href="http://hdlife.center/blog/uncategorized">Uncategorized</a></li>
+        <li><a href="http://hdlife.center/blog/news">Наши новости</a></li>
+        <li><a href="http://hdlife.center/blog/istoricheskie-svedeniya">Исторические сведения</a></li>
+        <li><a href="http://hdlife.center/blog/knowledge_base/steklyannyj-volchok-gipoteza-i-teorii">База знаний</a></li>
+    </ul>
+</div>
+<div class="blog-sidebar--widget">
+    <h4 class="widget-title typl8-epsilon">Теги:</h4>
+    {% component 'blogTags' %}
+    
+   
+</div>
+</aside>

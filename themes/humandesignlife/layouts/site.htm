@@ -1,0 +1,21 @@
+description = "Основной шаблон сайта, без заголовка страницы и хлебных крошек"
+
+[staticPage]
+
+[SeoStaticPage]
+==
+{% partial "head" %}
+        {% partial "desktop-header.htm" %}
+        {% partial "mobile-header.htm" %}
+
+	    <main class="b_primary_content content slide" role="main" itemscope itemprop="mainContentOfPage">
+	        {% page %}        
+	    </main>
+
+        {% partial "footer.htm" %}
+        </div>
+        {% partial "mobile-site-menu.htm" %}
+    
+{% partial "js-scripts.htm" %}  
+</body>
+</html>

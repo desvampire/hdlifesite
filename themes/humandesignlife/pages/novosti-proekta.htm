@@ -1,0 +1,124 @@
+title = "Блог"
+url = "/blog"
+layout = "page-fullwidth"
+is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+child_of = "mey_no_parent"
+hide_crumb = 0
+remove_crumb_trail = 0
+crumb_disabled = 0
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+categoryFilter = "{{ :slug }}"
+postsPerPage = 4
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "blog-category"
+postPage = "post"
+
+[blogCategories]
+slug = "{{ :slug }}"
+displayEmpty = 0
+categoryPage = "blog-category"
+==
+<!-- SITE CONTENT -->
+        <main class="b_primary_content" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+            
+            <!-- Featured posts -->
+        <div class="container">
+            <div class="b_featured-posts">
+                <div class="grid">
+                    
+                    <!-- XL POST -->
+                    <section class="grid__col-12 grid__col-md-7 grid__col--bleed featured-post">
+                        <div class="grid__cell">
+                            <div class="featured-post__xl">  
+                            <a href="blog-single.html" class="cover-trigger"></a>
+                            <a href="blog-single.html" class="example-img-grid example-focus" style="background-image:url('../img/post-xl.jpg');">
+                                <div class="example-img-grid-footer"><h4 class="white">Стратегия - это конституция, Авторитет - это судья.</h4></div>                               
+                            </a>
+                                    <ul class="featured-post_content--info">
+                                        <li>Дизайн Человека</li>
+                                        <li>10.06.2016</li>
+                                    </ul>                             
+                            </div>
+                        </div>                           
+                                               
+                            
+                    </section>
+                    
+                    <div class="grid__col-12 grid__col-md-5 grid__col--bleed">
+                    
+                    <div class="grid">
+                    
+                    <!-- M POST -->
+                    <section class="grid__col-12 grid__col--bleed featured-post">
+                        <div class="grid__cell">
+                            <div class="featured-post__m">
+                            <a href="#" class="cover-trigger"></a>                       
+                            <a href="#" class="example-img-grid example-focus" style="background-image:url('../img/post-m.jpg')">
+                                <div class="example-img-grid-footer"><h4 class="typl8-delta white">Я – Эмоциональный. Самое большое открытие.</h4></div>
+                                    <ul class="featured-post_content--info">
+                                        <li>Дизайн Человека</li>
+                                        <li itemprop="datePublished"s>10.06.2016</li>
+                                    </ul>                                
+                            </a>
+                            </div>
+                        </div>                                                   
+                    </section>
+                    
+                    <!-- S POST -->
+                    <section class="grid__col-md-6 grid__col-12 grid__col--bleed featured-post">
+                        <div class="grid__cell">
+                            <div class="featured-post__s">  
+                            <a href="#" class="cover-trigger"></a>                     
+                            <a href="#" class="example-img-grid example-focus" style="background-image:url('../img/post-s.jpg');">
+                            <div class="example-img-grid-footer"><h4 class="typl8-zeta white">Что предпринимают люди, чтобы перестать проживать тему «ложного я» своего типа?</h4></div>
+                                    <ul class="featured-post_content--info">
+                                        <li>Дизайн Человека</li>
+                                        <li itemprop="datePublished">10.06.2016</li>
+                                    </ul>                                
+                            </a>
+                            </div>
+                        </div>                    
+                        </section>
+                                
+                    
+                    <section class="grid__col-md-6 grid__col-12 grid__col--bleed featured-post">
+                        <div class="grid__cell">
+                            <div class="featured-post__s">
+                            <a href="#" class="cover-trigger"></a>                      
+                            <a href="#" class="example-img-grid example-focus" style="background-image:url('../img/post-s2.png');">
+                            <div class="example-img-grid-footer"><h4 class="typl8-zeta white">Все что вы хотели знать о Лунных циклах</h4></div>
+                            </a>
+                                    <ul class="featured-post_content--info">
+                                        <li>Дизайн Человека</li>
+                                        <li itemprop="datePublished">10.06.2016</li>
+                                    </ul>                            
+                            </div>
+                        </div>                    
+                    </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- END FEATURED POSTS -->
+
+    <!-- Latest posts block -->
+    <div class="container">
+        <!-- Section posts block title -->
+{% component 'blogPosts' %}
+
+        <!-- posts from category -->
+        
+        {% component 'blogCategories' %}
+        
+
+    </div><!-- end of all latest posts container -->
+
+  
+                
+
+        </main>

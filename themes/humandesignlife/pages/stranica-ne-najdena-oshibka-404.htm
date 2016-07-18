@@ -1,0 +1,31 @@
+title = "Страница не найдена - ошибка 404."
+url = "/404"
+layout = "site"
+is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+child_of = "mey_no_parent"
+hide_crumb = 0
+remove_crumb_trail = 0
+crumb_disabled = 0
+
+[siteSearchInclude]
+==
+<div class="container text-center">
+   <header class="b_simple_page_header">
+        <h1 class="page_title typl8-beta text-center" itemprop="name">{{ this.page.title }}</h1>
+    </header>   
+    <div class="frognotfound"><img src="http://hdlife.center/storage/app/media/utilities/404-froggy.png" alt="ошибка 404"></div>
+    
+    <div class="grid grid--justify-center">
+            <div class="grid__col-md-8 grd__col-md-12 text-center">
+                <p class="typl8-gamma">Ой! Кажется вы забрели совсем далеко, такой страницы действительно не существует.</p>
+                <p>Воспользуйтесь формой поиска или вернитесь на <a href="http://hdlife.center/">Главную страницу сайта.</a></p>
+                <form action="{{ '/search-results' | app }}" method="get" class="email-subscribe-main">
+    <input name="q" type="text" placeholder="Поиск по сайту..." autocomplete="off" class="client-email-subscribe">
+    <input type="submit" class="btn btn-primary btn_red client-email-subscribe--ok" value="ОК">
+</form>
+            </div>
+    </div>
+    
+</div>

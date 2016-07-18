@@ -1,0 +1,51 @@
+1468847725a:1:{s:17:"blog-category.htm";a:17:{s:8:"fileName";s:17:"blog-category.htm";s:7:"content";s:794:"title = "blog category"
+url = "/blog/:slug"
+layout = "page-fullwidth"
+is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+child_of = "mey_no_parent"
+hide_crumb = 0
+remove_crumb_trail = 0
+crumb_disabled = 0
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+categoryFilter = "{{ :slug }}"
+postsPerPage = 10
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "blog-category"
+postPage = "post"
+
+[blogTags]
+results = 5
+direction = "desc"
+==
+<div class="row">
+        <div class="col-10">
+                               
+{% component 'blogPosts' %}
+        </div>
+                            
+         <div class="col-2">
+
+             <p class="get_social__news_bar">Теги:</p>
+             {% component 'blogTags' %}
+             
+         </div>
+
+</div>";s:5:"mtime";i:1468588613;s:6:"markup";s:330:"<div class="row">
+        <div class="col-10">
+                               
+{% component 'blogPosts' %}
+        </div>
+                            
+         <div class="col-2">
+
+             <p class="get_social__news_bar">Теги:</p>
+             {% component 'blogTags' %}
+             
+         </div>
+
+</div>";s:4:"code";N;s:5:"title";s:13:"blog category";s:3:"url";s:11:"/blog/:slug";s:6:"layout";s:14:"page-fullwidth";s:9:"is_hidden";s:1:"0";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";s:8:"child_of";s:13:"mey_no_parent";s:10:"hide_crumb";s:1:"0";s:18:"remove_crumb_trail";s:1:"0";s:14:"crumb_disabled";s:1:"0";s:9:"blogPosts";a:7:{s:10:"pageNumber";s:11:"{{ :page }}";s:14:"categoryFilter";s:11:"{{ :slug }}";s:12:"postsPerPage";s:2:"10";s:14:"noPostsMessage";s:14:"No posts found";s:9:"sortOrder";s:17:"published_at desc";s:12:"categoryPage";s:13:"blog-category";s:8:"postPage";s:4:"post";}s:8:"blogTags";a:2:{s:7:"results";s:1:"5";s:9:"direction";s:4:"desc";}}}

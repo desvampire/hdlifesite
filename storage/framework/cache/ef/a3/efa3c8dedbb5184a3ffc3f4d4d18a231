@@ -1,0 +1,16 @@
+1468847725a:1:{s:12:"glavnaya.htm";a:17:{s:8:"fileName";s:12:"glavnaya.htm";s:7:"content";s:345:"title = "Главная"
+url = "/"
+layout = "site"
+description = "Главная страница сайта"
+is_hidden = 0
+meta_title = "Дизайн Человека"
+robot_index = "index"
+robot_follow = "follow"
+child_of = "mey_no_parent"
+hide_crumb = 0
+remove_crumb_trail = 0
+crumb_disabled = 0
+==
+<h1>Hello!</h1>
+<p>This is blank page!</p>";s:5:"mtime";i:1468588613;s:6:"markup";s:43:"<h1>Hello!</h1>
+<p>This is blank page!</p>";s:4:"code";N;s:5:"title";s:14:"Главная";s:3:"url";s:1:"/";s:6:"layout";s:4:"site";s:11:"description";s:42:"Главная страница сайта";s:9:"is_hidden";s:1:"0";s:10:"meta_title";s:29:"Дизайн Человека";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";s:8:"child_of";s:13:"mey_no_parent";s:10:"hide_crumb";s:1:"0";s:18:"remove_crumb_trail";s:1:"0";s:14:"crumb_disabled";s:1:"0";}}

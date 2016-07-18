@@ -1,0 +1,72 @@
+1468839655a:1:{s:18:"page-fullwidth.htm";a:7:{s:8:"fileName";s:18:"page-fullwidth.htm";s:7:"content";s:1476:"description = "Шаблон страницы во всю ширину экрана"
+
+[breadcrumbs]
+main-ol-class = "breadcrumb"
+active-class = "active"
+disabled-class = "disabled"
+==
+{% partial "head" %}
+        {% partial "desktop-header.htm" %}
+        {% partial "mobile-header.htm" %}
+        <div class="b_primary_content">
+            <header class="page-header__grey-bg">
+                <div class="container">
+                    <div class="page-header__grey-bg--inner">
+                        <h1 class="page_title typl8-beta" itemprop="name">{% if category %} {{ category.name }} {% else %} {{ this.page.title }} {% endif %}</h1>
+                         {% if post %}
+                            {% partial "breadcrumbs_post" %}
+                         {% elseif category %}
+                            {% partial "breadcrumbs_cat" %}
+                         {% else %}
+                            {% partial "breadcrumbs" %}
+                         {% endif %}
+                    </div>
+                </div>
+            </header>
+            
+            <main class="b_page-content" role="main" itemscope itemprop="mainContentOfPage">
+                <section class="entry-content">
+                   {% page %}
+               </section>
+            </main>
+        </div>
+
+        {% partial "footer.htm" %}
+        </div>
+        {% partial "mobile-site-menu.htm" %}
+    
+{% partial "js-scripts.htm" %} 
+</body>
+</html>";s:5:"mtime";i:1468588612;s:6:"markup";s:1293:"{% partial "head" %}
+        {% partial "desktop-header.htm" %}
+        {% partial "mobile-header.htm" %}
+        <div class="b_primary_content">
+            <header class="page-header__grey-bg">
+                <div class="container">
+                    <div class="page-header__grey-bg--inner">
+                        <h1 class="page_title typl8-beta" itemprop="name">{% if category %} {{ category.name }} {% else %} {{ this.page.title }} {% endif %}</h1>
+                         {% if post %}
+                            {% partial "breadcrumbs_post" %}
+                         {% elseif category %}
+                            {% partial "breadcrumbs_cat" %}
+                         {% else %}
+                            {% partial "breadcrumbs" %}
+                         {% endif %}
+                    </div>
+                </div>
+            </header>
+            
+            <main class="b_page-content" role="main" itemscope itemprop="mainContentOfPage">
+                <section class="entry-content">
+                   {% page %}
+               </section>
+            </main>
+        </div>
+
+        {% partial "footer.htm" %}
+        </div>
+        {% partial "mobile-site-menu.htm" %}
+    
+{% partial "js-scripts.htm" %} 
+</body>
+</html>";s:4:"code";N;s:11:"description";s:67:"Шаблон страницы во всю ширину экрана";s:11:"breadcrumbs";a:3:{s:13:"main-ol-class";s:10:"breadcrumb";s:12:"active-class";s:6:"active";s:14:"disabled-class";s:8:"disabled";}}}
