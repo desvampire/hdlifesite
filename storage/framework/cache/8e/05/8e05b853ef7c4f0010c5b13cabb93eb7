@@ -1,4 +1,4 @@
-1468847725a:1:{s:8:"post.htm";a:20:{s:8:"fileName";s:8:"post.htm";s:7:"content";s:818:"title = "Post single"
+1469452106a:1:{s:8:"post.htm";a:20:{s:8:"fileName";s:8:"post.htm";s:7:"content";s:818:"title = "Post single"
 url = "/blog/:category?/:slug?"
 layout = "post-single-template"
 is_hidden = 0

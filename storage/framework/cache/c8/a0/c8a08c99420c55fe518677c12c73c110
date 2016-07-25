@@ -1,4 +1,4 @@
-1468841107a:1:{s:24:"post-single-template.htm";a:6:{s:8:"fileName";s:24:"post-single-template.htm";s:7:"content";s:919:"description = "Шаблон поста"
+1469290610a:1:{s:24:"post-single-template.htm";a:6:{s:8:"fileName";s:24:"post-single-template.htm";s:7:"content";s:919:"description = "Шаблон поста"
 ==
 {% partial "head" %}
     <div id="sb-site">

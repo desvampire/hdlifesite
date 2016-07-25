@@ -1,4 +1,4 @@
-1468839658a:1:{s:19:"breadcrumbs_cat.htm";a:7:{s:8:"fileName";s:19:"breadcrumbs_cat.htm";s:7:"content";s:200:"[CategoryBreadCrumbs]
+1469452112a:1:{s:19:"breadcrumbs_cat.htm";a:7:{s:8:"fileName";s:19:"breadcrumbs_cat.htm";s:7:"content";s:200:"[CategoryBreadCrumbs]
 categoryPage = "blog/category"
 categorySlug = "{{ :slug }}"
 
